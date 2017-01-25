@@ -24,7 +24,7 @@ import java.io.InputStream;
 import java.io.InputStreamReader;
 
 public class SecondActivity extends AppCompatActivity {
-    String URL="http://52.172.152.230/AVA_Binary/Booking/SaveUserCabBookingDetails";
+    String URL="/AVA_Binary/Booking/SaveUserCabBookingDetails";
     String mResult;
     Button button3;
     private ProgressDialog pdLoading;
