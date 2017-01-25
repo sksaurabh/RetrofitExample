@@ -30,7 +30,7 @@ import java.util.List;
 
 public class MainActivity extends AppCompatActivity {
     Button button2;
-    String URL = "http://52.172.152.230/AVA_Binary/Booking/GetUserAllCabBookingDetails/?userId=166858";
+    String URL = "AVA_Binary/Booking/GetUserAllCabBookingDetails/?userId=166858";
     private ProgressDialog pdLoading;
     String[] mResult;
     List<GetCabBookindDetails> myDealsList;
