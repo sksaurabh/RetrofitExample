@@ -39,7 +39,7 @@ public class WebServices<T> {
     public enum ApiType {
         GetWeatherInfoByGoeidOrCityName,TravaLoginUser
     }
-    public static String TravaService = "http://52.172.152.230/AVA_Binary/";
+    public static String TravaService = "/AVA_Binary/";
 
     public WebServices(OnResponseListner<T> onResponseListner) {
         this.onResponseListner = onResponseListner;
